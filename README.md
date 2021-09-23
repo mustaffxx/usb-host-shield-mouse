@@ -3,10 +3,10 @@
 When playing around a [USB HOST SHIELD 2.0](https://github.com/felis/USB_Host_Shield_2.0) with my Logitech G502 i've notice that examples not working with my mouse. The problem is that examples use HID Boot Protocol and G502 uses HID Report Protocol. 
 
 # Hardware
-Arduino Leonardo;
-USB Host Shield 2.0;
-Logitech G502;
-Computer;
+Arduino Leonardo;  
+USB Host Shield 2.0;  
+Logitech G502;  
+Computer;  
 
 ## What does it do?
 
@@ -14,7 +14,6 @@ Interpret ~~16-bit~~(actually 8-bits) data from x and y axis, mouse clicks, mous
 
 ```
 [USB Mouse] --> [USB Host Shield 2.0] --> [Arduino Leonardo] --FAKE HID USB--> [Computer]
-
 ```
 
 ## To Do
