@@ -12,9 +12,8 @@ Computer;
 
 Interpret ~~16-bit~~(actually 8-bits) data from x and y axis, mouse clicks, mouse wheel and replicate to computer.
 
-```mermaid
-graph LR
-A[USB Mouse] --> B[USB Host Shield 2.0] --> C[Arduino Leonardo] --FAKE HID USB--> D[Computer]
+```
+[USB Mouse] --> [USB Host Shield 2.0] --> [Arduino Leonardo] --FAKE HID USB--> [Computer]
 
 ```
 
